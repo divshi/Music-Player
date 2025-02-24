@@ -1,11 +1,11 @@
 :root {
-  /* colors */
-  --primary-color: #dfdfe2;
-  --secondary-color: #ffffff;
-  --app-background-color: #4d4d62;
-  --background-color: #1b1b32;
-  --foreground-color: #3b3b4f;
-  --highlight-color: #f1be32;
+/* colors */
+--primary-color: #FFD700; /* Golden */
+--secondary-color: #FFFFFF; /* White */
+--app-background-color: #2C003E; /* Deep Purple */
+--background-color: #3E065F; /* Royal Purple */
+--foreground-color: #5D1049; /* Magenta Tint */
+--highlight-color: #FF5733; /* Warm Sunset Orange */
 
   /* font sizes */
   --root-font-size: 16px;
