@@ -7,76 +7,63 @@ const playlistSongs = document.getElementById("playlist-songs");
 
 const allSongs = [
     {
-        id: 0,
-        title: "Scratching The Surface",
-        artist: "Quincy Larson",
-        duration: "4:25",
-        src: "https://s3.amazonaws.com/org.freecodecamp.mp3-player-project/scratching-the-surface.mp3",
+      id: 0,
+      title: "Tum Hi Ho",
+      artist: "Arijit Singh",
+      duration: "4:22",
+      src: "https://www.saregama.com/song/tum-hi-ho_123456"
     },
     {
-        id: 1,
-        title: "Can't Stay Down",
-        artist: "Quincy Larson",
-        duration: "4:15",
-        src: "https://s3.amazonaws.com/org.freecodecamp.mp3-player-project/cant-stay-down.mp3",
+      id: 1,
+      title: "Kal Ho Naa Ho",
+      artist: "Sonu Nigam",
+      duration: "5:20",
+      src: "https://www.saregama.com/song/kal-ho-naa-ho_123457"
     },
     {
-        id: 2,
-        title: "Still Learning",
-        artist: "Quincy Larson",
-        duration: "3:51",
-        src: "https://s3.amazonaws.com/org.freecodecamp.mp3-player-project/still-learning.mp3",
+      id: 2,
+      title: "Tera Ban Jaunga",
+      artist: "Akhil Sachdeva, Tulsi Kumar",
+      duration: "3:56",
+      src: "https://www.saregama.com/song/tera-ban-jaunga_123458"
     },
     {
-        id: 3,
-        title: "Cruising for a Musing",
-        artist: "Quincy Larson",
-        duration: "3:34",
-        src: "https://s3.amazonaws.com/org.freecodecamp.mp3-player-project/cruising-for-a-musing.mp3",
+      id: 3,
+      title: "Dil Dhadakne Do",
+      artist: "Farhan Akhtar, Priyanka Chopra",
+      duration: "4:42",
+      src: "https://www.saregama.com/song/dil-dhadakne-do_123459"
     },
     {
-        id: 4,
-        title: "Never Not Favored",
-        artist: "Quincy Larson",
-        duration: "3:35",
-        src: "https://s3.amazonaws.com/org.freecodecamp.mp3-player-project/never-not-favored.mp3",
+      id: 4,
+      title: "Tum Se Hi",
+      artist: "Mohit Chauhan",
+      duration: "5:11",
+      src: "https://www.saregama.com/song/tum-se-hi_123460"
     },
     {
-        id: 5,
-        title: "From the Ground Up",
-        artist: "Quincy Larson",
-        duration: "3:12",
-        src: "https://s3.amazonaws.com/org.freecodecamp.mp3-player-project/from-the-ground-up.mp3",
+      id: 5,
+      title: "Channa Mereya",
+      artist: "Arijit Singh",
+      duration: "4:49",
+      src: "https://www.saregama.com/song/channa-mereya_123461"
     },
     {
-        id: 6,
-        title: "Walking on Air",
-        artist: "Quincy Larson",
-        duration: "3:25",
-        src: "https://s3.amazonaws.com/org.freecodecamp.mp3-player-project/walking-on-air.mp3",
+      id: 6,
+      title: "Agar Tum Saath Ho",
+      artist: "Alka Yagnik, Arijit Singh",
+      duration: "5:41",
+      src: "https://www.saregama.com/song/agar-tum-saath-ho_123462"
     },
     {
-        id: 7,
-        title: "Can't Stop Me. Can't Even Slow Me Down.",
-        artist: "Quincy Larson",
-        duration: "3:52",
-        src: "https://s3.amazonaws.com/org.freecodecamp.mp3-player-project/cant-stop-me-cant-even-slow-me-down.mp3",
-    },
-    {
-        id: 8,
-        title: "The Surest Way Out is Through",
-        artist: "Quincy Larson",
-        duration: "3:10",
-        src: "https://s3.amazonaws.com/org.freecodecamp.mp3-player-project/the-surest-way-out-is-through.mp3",
-    },
-    {
-        id: 9,
-        title: "Chasing That Feeling",
-        artist: "Quincy Larson",
-        duration: "2:43",
-        src: "https://s3.amazonaws.com/org.freecodecamp.mp3-player-project/chasing-that-feeling.mp3",
-    },
-];
+      id: 7,
+      title: "Raabta",
+      artist: "Arijit Singh",
+      duration: "4:05",
+      src: "https://www.saregama.com/song/raabta_123463"
+    }
+  ];
+  
 
 const audio = new Audio();
 
